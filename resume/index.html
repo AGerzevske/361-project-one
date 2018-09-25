@@ -9,10 +9,10 @@
 <!-- This is the body -->
 <body>
   <!-- Links to other pages using referential navigation -->
-  <!-- Bio Header: Nav, Name, and Address info -->
-  <header id="bio-header">
+  <!-- Resume Header: Nav, Name, and Address info -->
+  <header id="resume-header">
     <nav>
-      <ul>
+      <ul class="nav">
         <li><a href="../">Home</a></li>
         <li><a href="./">Resume</a></li>
         <li><a href="/my-pets">Pets</a></li>
@@ -46,7 +46,7 @@
               <li>Master of Cyber Forensics and Security</li>
               <li>Bachelor of Information Technology and Management</li>
             </ol>
-            <ul>
+            <ul class="details">
               <li class="dates">August 2018 - May 2021</li>
               <li class="gpa">GPA 4.00</li>
               <li class="location">Chicago, IL</li>
@@ -62,7 +62,7 @@
               <li>Associate in Applied Science, Computer and Internetworking Technologies</li>
               <li>Cybersecurity Specialist Certificate</li>
             </ol>
-            <ul>
+            <ul class="details">
               <li class="dates">August 2016 - May 2018</li>
               <li class="gpa">GPA 3.95</li>
               <li class="location">Glen Ellyn, IL</li>
@@ -75,7 +75,7 @@
     <article id="work-experience">
       <h3>Work Experience</h3>
       <!-- Order Matters Because: partially time, but mostly from importance -->
-      <!--                        best buy is purposely out of time order as it is less important -->
+      <!--                        bestbuy is purposely out of time-order as it is less important -->
       <!--                        I would want an employer to see them in this exact order -->
       <!--                        it would lose meaning if it was mixed up -->
       <ol id="jobs">
@@ -83,7 +83,7 @@
         <li>
           <section id="bank">
             <h4>Network Systems Engineer Intern</h4>
-            <ul>
+            <ul class="details">
               <li class="employer">Republic Bank of Chicago</li>
               <li class="location">Oak Brook, IL</li>
               <li class="dates">May 2018 - August 2018</li>
@@ -93,11 +93,14 @@
             <!--                          removed if a better achievement was added -->
             <!--                          first item should be read first -->
             <ol class="job-achievements">
-              <li>Designed and deployed Microsoft LAPS architecture to increase enterprise security posture for FDIC compliance</li>
-              <li>Detailed security analysis of network architecture using specialty systems from Fortinet, Aruba ClearPass, and Cisco Prime</li>
-              <li>Facilitated infrastructure roadmap changes including hardware replacement, network documentation, and disaster recovery</li>
-              <li>Collaborated with upper management and consultants regarding security hardening, posture assessment, and best practices</li>
-              <li>Administrated network across multiple systems and hardware devices enterprise wide</li>
+              <li>Designed and deployed Microsoft LAPS architecture to increase enterprise security
+              posture for FDIC compliance</li> <li>Detailed security analysis of network
+              architecture using specialty systems from Fortinet, Aruba ClearPass, and Cisco
+              Prime</li> <li>Facilitated infrastructure roadmap changes including hardware
+              replacement, network documentation, and disaster recovery</li> <li>Collaborated with
+              upper management and consultants regarding security hardening, posture assessment, and
+              best practices</li> <li>Administrated network across multiple systems and hardware
+              devices enterprise wide</li>
             </ol>
           </section>
         </li>
@@ -105,18 +108,19 @@
         <li>
           <section id="sd129">
             <h4>IT Intern / IT Intern Supervisor / Field Technician</h4>
-            <ul>
+            <ul class="details">
               <li class="employer">School District 129</li>
               <li class="location">Aurora, IL</li>
               <li class="dates">May 2015 - May 2018</li>
             </ul>
             <!-- Order Matters Because: See above: ** -->
             <ol class="job-achievements">
-              <li>Identified inefficiencies and implement effective changes to improve way devices are deployed and organized</li>
-              <li>Managed dozen interns on how to perform tasks across twenty locations</li>
-              <li>Coordinated setup, inventory, and organization of thousands of devices</li>
-              <li>Resolved software issues, repaired devices, completed documentation, and verified work</li>
-              <li>Maintained technology at West Aurora High, Jefferson Middle, McCleery Elementary, and Hill Elementary Schools</li>
+              <li>Identified inefficiencies and implement effective changes to improve way devices
+              are deployed and organized</li> <li>Managed dozen interns on how to perform tasks
+              across twenty locations</li> <li>Coordinated setup, inventory, and organization of
+              thousands of devices</li> <li>Resolved software issues, repaired devices, completed
+              documentation, and verified work</li> <li>Maintained technology at West Aurora High,
+              Jefferson Middle, McCleery Elementary, and Hill Elementary Schools</li>
             </ol>
           </section>
         </li>
@@ -124,16 +128,17 @@
         <li>
           <section id="best-buy">
             <h4>Geek Squad Consultation Agent / Geek Squad Advanced Repair Agent</h4>
-            <ul>
+            <ul class="details">
               <li class="employer">Best Buy</li>
               <li class="location">North Aurora, IL</li>
               <li class="dates">May 2016 - Present (Seasonal)</li>
             </ul>
             <!-- Order Matters Because: See above: ** -->
             <ol class="job-achievements">
-              <li>Supervise and train coworkers by explaining Client Data Privacy, SOP, policies, and procedures</li>
-              <li>Create personalized experience for each client by understanding and empathizing with their situation</li>
-              <li>Complete repairs, upgrades, and setups including proper documentation</li>
+              <li>Supervise and train coworkers by explaining Client Data Privacy, SOP, policies,
+              and procedures</li> <li>Create personalized experience for each client by
+              understanding and empathizing with their situation</li> <li>Complete repairs,
+              upgrades, and setups including proper documentation</li>
             </ol>
           </section>
         </li>
@@ -141,16 +146,17 @@
         <li>
           <section id="ync">
             <h4>IT Consultant</h4>
-            <ul>
+            <ul class="details">
               <li class="employer">Young &amp; Champagne</li>
               <li class="location">Detroit, MI</li>
               <li class="dates">October 2016 - August 2017</li>
             </ul>
             <!-- Order Matters Because: See above: ** -->
             <ol class="job-achievements">
-              <li>Collaborated with IT mentor, established office network and facilitated PC maintenance through on-site service</li>
-              <li>Provided remote client support via TeamViewer to manage applications and VPN access</li>
-              <li>Administered Office 365 to make sure employees efficiently use software features</li>
+              <li>Collaborated with IT mentor, established office network and facilitated PC
+              maintenance through on-site service</li> <li>Provided remote client support via
+              TeamViewer to manage applications and VPN access</li> <li>Administered Office 365 to
+              make sure employees efficiently use software features</li>
             </ol>
           </section>
         </li>
@@ -158,15 +164,16 @@
         <li>
           <section id="main-event">
             <h4>Games Attendant / Games Supervisor</h4>
-            <ul>
+            <ul class="details">
               <li class="employer">Main Event Entertainment</li>
               <li class="location">Warrenville, IL</li>
               <li class="dates">August 2014 - May 2016</li>
             </ul>
             <!-- Order Matters Because: See above: ** -->
             <ol class="job-achievements">
-              <li>Co-managed games department, trained employees, and maintained technical equipment</li>
-              <li>Worked independently and as team to provide service that guaranteed customer satisfaction and loyalty</li>
+              <li>Co-managed games department, trained employees, and maintained technical
+              equipment</li> <li>Worked independently and as team to provide service that guaranteed
+              customer satisfaction and loyalty</li>
             </ol>
           </section>
         </li>
@@ -177,8 +184,9 @@
       <h3>Technical Skills</h3>
       <!-- Skills List -->
       <ul id="skills">
-        <li>Administration VMware vCenter, Cisco Prime, Aruba ClearPass, Aruba Central, LAPS, Fortinet Firewall, SolarWinds, JAMF, Active Directory</li>
-        <li>Configure, Verify, and Troubleshoot Cisco IOS, VLSM, IPV4, IPv6, Routing, Switching, Security, Cabling</li>
+        <li>Administration VMware vCenter, Cisco Prime, Aruba ClearPass Aruba Central, LAPS,
+        Fortinet Firewall, SolarWinds, JAMF, Active Directory</li> <li>Configure, Verify, and
+        Troubleshoot Cisco IOS, VLSM, IPV4, IPv6, Routing, Switching, Security, Cabling</li>
         <li>Operate Windows, Windows Server, Linux, Mac OS, Chrome OS</li>
         <li>Document Samanage and Nova ticketing systems</li>
         <li>Troubleshoot Computer Hardware and Software</li>
