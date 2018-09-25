@@ -71,82 +71,106 @@
         </li>
       </ol>
     </article>
-    <!-- Work Experience Article: Jobs: Bank, SD129, Best Buy, YnC, and Main Event-->
+    <!-- Work Experience Article: Jobs: Bank, SD129, Best Buy, YnC, and Main Event -->
     <article id="work-experience">
       <h3>Work Experience</h3>
-      <!-- Bank Section -->
-      <section id="bank">
-        <h4>Network Systems Engineer Intern</h4>
-        <ul>
-          <li class="employer">Republic Bank of Chicago</li>
-          <li class="location">Oak Brook, IL</li>
-          <li class="dates">May 2018 - August 2018</li>
-        </ul>
-        <ol>
-          <li>Designed and deployed Microsoft LAPS architecture to increase enterprise security posture for FDIC compliance</li>
-          <li>Detailed security analysis of network architecture using specialty systems from Fortinet, Aruba ClearPass, and Cisco Prime</li>
-          <li>Facilitated infrastructure roadmap changes including hardware replacement, network documentation, and disaster recovery</li>
-          <li>Collaborated with upper management and consultants regarding security hardening, posture assessment, and best practices</li>
-          <li>Administrated network across multiple systems and hardware devices enterprise wide</li>
-        </ol>
-      </section>
-      <!-- SD129 Section -->
-      <section id="sd129">
-        <h4>IT Intern / IT Intern Supervisor / Field Technician</h4>
-        <ul>
-          <li class="employer">School District 129</li>
-          <li class="location">Aurora, IL</li>
-          <li class="dates">May 2015 - May 2018</li>
-        </ul>
-        <ol>
-          <li>Identified inefficiencies and implement effective changes to improve way devices are deployed and organized</li>
-          <li>Managed dozen interns on how to perform tasks across twenty locations</li>
-          <li>Coordinated setup, inventory, and organization of thousands of devices</li>
-          <li>Resolved software issues, repaired devices, completed documentation, and verified work</li>
-          <li>Maintained technology at West Aurora High, Jefferson Middle, McCleery Elementary, and Hill Elementary Schools</li>
-        </ol>
-      </section>
-      <!-- Best Buy Section -->
-      <section id="best-buy">
-        <h4>Geek Squad Consultation Agent / Geek Squad Advanced Repair Agent</h4>
-        <ul>
-          <li class="employer">Best Buy</li>
-          <li class="location">North Aurora, IL</li>
-          <li class="dates">May 2016 - Present (Seasonal)</li>
-        </ul>
-        <ol>
-          <li>Supervise and train coworkers by explaining Client Data Privacy, SOP, policies, and procedures</li>
-          <li>Create personalized experience for each client by understanding and empathizing with their situation</li>
-          <li>Complete repairs, upgrades, and setups including proper documentation</li>
-        </ol>
-      </section>
-      <!-- YnC Section -->
-      <section id="ync">
-        <h4>IT Consultant</h4>
-        <ul>
-          <li class="employer">Young &amp; Champagne</li>
-          <li class="location">Detroit, MI</li>
-          <li class="dates">October 2016 - August 2017</li>
-        </ul>
-        <ol>
-          <li>Collaborated with IT mentor, established office network and facilitated PC maintenance through on-site service</li>
-          <li>Provided remote client support via TeamViewer to manage applications and VPN access</li>
-          <li>Administered Office 365 to make sure employees efficiently use software features</li>
-        </ol>
-      </section>
-      <!-- Main Event Section -->
-      <section id="main-event">
-        <h4>Games Attendant / Games Supervisor</h4>
-        <ul>
-          <li class="employer">Main Event Entertainment</li>
-          <li class="location">Warrenville, IL</li>
-          <li class="dates">August 2014 - May 2016</li>
-        </ul>
-        <ol>
-          <li>Co-managed games department, trained employees, and maintained technical equipment</li>
-          <li>Worked independently and as team to provide service that guaranteed customer satisfaction and loyalty</li>
-        </ol>
-      </section>
+      <!-- Order matters beacuse: partialy time, but mostly from importance -->
+      <!--                        best buy is purposely out of time order as it is less impotant -->
+      <!--                        I would want an employer to see them in this exact order -->
+      <!--                        it would lose meaning if it was mixed up -->
+      <ol id="jobs">
+        <!-- Bank Section -->
+        <li>
+          <section id="bank">
+            <h4>Network Systems Engineer Intern</h4>
+            <ul>
+              <li class="employer">Republic Bank of Chicago</li>
+              <li class="location">Oak Brook, IL</li>
+              <li class="dates">May 2018 - August 2018</li>
+            </ul>
+            <!-- Order matters beacuse:** items are ranked according to importance -->
+            <!--                          last item is actualy least impotant and would be -->
+            <!--                          removed if a better achievement was added -->
+            <!--                          first item should be read first -->
+            <ol class="job-achievements">
+              <li>Designed and deployed Microsoft LAPS architecture to increase enterprise security posture for FDIC compliance</li>
+              <li>Detailed security analysis of network architecture using specialty systems from Fortinet, Aruba ClearPass, and Cisco Prime</li>
+              <li>Facilitated infrastructure roadmap changes including hardware replacement, network documentation, and disaster recovery</li>
+              <li>Collaborated with upper management and consultants regarding security hardening, posture assessment, and best practices</li>
+              <li>Administrated network across multiple systems and hardware devices enterprise wide</li>
+            </ol>
+          </section>
+        </li>
+        <!-- SD129 Section -->
+        <li>
+          <section id="sd129">
+            <h4>IT Intern / IT Intern Supervisor / Field Technician</h4>
+            <ul>
+              <li class="employer">School District 129</li>
+              <li class="location">Aurora, IL</li>
+              <li class="dates">May 2015 - May 2018</li>
+            </ul>
+            <!-- Order matters beacuse: See above: ** -->
+            <ol class="job-achievements">
+              <li>Identified inefficiencies and implement effective changes to improve way devices are deployed and organized</li>
+              <li>Managed dozen interns on how to perform tasks across twenty locations</li>
+              <li>Coordinated setup, inventory, and organization of thousands of devices</li>
+              <li>Resolved software issues, repaired devices, completed documentation, and verified work</li>
+              <li>Maintained technology at West Aurora High, Jefferson Middle, McCleery Elementary, and Hill Elementary Schools</li>
+            </ol>
+          </section>
+        </li>
+        <!-- Best Buy Section -->
+        <li>
+          <section id="best-buy">
+            <h4>Geek Squad Consultation Agent / Geek Squad Advanced Repair Agent</h4>
+            <ul>
+              <li class="employer">Best Buy</li>
+              <li class="location">North Aurora, IL</li>
+              <li class="dates">May 2016 - Present (Seasonal)</li>
+            </ul>
+            <!-- Order matters beacuse: See above: ** -->
+            <ol class="job-achievements">
+              <li>Supervise and train coworkers by explaining Client Data Privacy, SOP, policies, and procedures</li>
+              <li>Create personalized experience for each client by understanding and empathizing with their situation</li>
+              <li>Complete repairs, upgrades, and setups including proper documentation</li>
+            </ol>
+          </section>
+        </li>
+        <!-- YnC Section -->
+        <li>
+          <section id="ync">
+            <h4>IT Consultant</h4>
+            <ul>
+              <li class="employer">Young &amp; Champagne</li>
+              <li class="location">Detroit, MI</li>
+              <li class="dates">October 2016 - August 2017</li>
+            </ul>
+            <!-- Order matters beacuse: See above: ** -->
+            <ol class="job-achievements">
+              <li>Collaborated with IT mentor, established office network and facilitated PC maintenance through on-site service</li>
+              <li>Provided remote client support via TeamViewer to manage applications and VPN access</li>
+              <li>Administered Office 365 to make sure employees efficiently use software features</li>
+            </ol>
+          </section>
+        </li>
+        <!-- Main Event Section -->
+        <li>
+          <section id="main-event">
+            <h4>Games Attendant / Games Supervisor</h4>
+            <ul>
+              <li class="employer">Main Event Entertainment</li>
+              <li class="location">Warrenville, IL</li>
+              <li class="dates">August 2014 - May 2016</li>
+            </ul>
+            <!-- Order matters beacuse: See above: ** -->
+            <ol class="job-achievements">
+              <li>Co-managed games department, trained employees, and maintained technical equipment</li>
+              <li>Worked independently and as team to provide service that guaranteed customer satisfaction and loyalty</li>
+            </ol>
+          </section>
+        </li>
+      </ol>
     </article>
     <!-- Technical Skills Article: Skills -->
     <article id="technical-skills">
@@ -180,14 +204,14 @@
     <!-- Leadership Experience Article: Leadership -->
     <article id="leadership-experience">
       <h3>Leadership Experience</h3>
-        <!-- Order matters beacuse: order of time. Leadership List -->
-        <ol id="leadership">
-          <li>Cyber Skyline National Cyber League	March 2018 - May 2018</li>
-          <li>Phi Theta Kappa Honor Society	February 2018 - May 2018</li>
-          <li>CompTIA Policy Executive Board	March 2018</li>
-          <li>Webmaster College of DuPage Entrepreneurship Club	September 2016 - December 2017</li>
-          <li>Co-founded College of DuPage Computer Science Club	November 2016 - August 2017</li>
-        </ol>
+      <!-- Leadership List. Order matters beacuse: order of time.  -->
+      <ol id="leadership">
+        <li>Cyber Skyline National Cyber League	March 2018 - May 2018</li>
+        <li>Phi Theta Kappa Honor Society	February 2018 - May 2018</li>
+        <li>CompTIA Policy Executive Board	March 2018</li>
+        <li>Webmaster College of DuPage Entrepreneurship Club	September 2016 - December 2017</li>
+        <li>Co-founded College of DuPage Computer Science Club	November 2016 - August 2017</li>
+      </ol>
     </article>
   </section>
 </body>
