@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html id="resume" lang="en">
-<!--  -->
+<!-- This is the Resume page -->
 <head>
   <title>Resume for Austyn Gerzevske</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
 </head>
-<!--  -->
+<!-- Here's the body -->
 <body>
-  <!--  -->
+  <!-- Links to other pages using referential navigation -->
+  <!-- Bio Header: Nav, Name, and Address info -->
   <header id="bio-header">
     <nav>
       <ul>
@@ -27,19 +28,20 @@
     </address>
   </header>
   <!-- My Resume treated as a section with articles that can be reproduced independantly -->
-  <!-- My Resume Section: Education, Work Experience, Skills, Certifications, and Leadership-->
+  <!-- My Resume Section: Education, Work Experience, Technical Skills, -->
+  <!--                    Certifications Awards, and Leadership Experience -->
   <section id="my-resume">
     <h2>My Resume</h2>
-    <!-- Education Article: IIT and COD -->
+    <!-- Education Article: Schools: IIT and COD -->
     <article id="education">
       <h3>Education</h3>
-      <!-- Order matters beacuse: order of time and hirarchy between degrees -->
+      <!-- Order matters beacuse: order of time and hierarchy between degrees -->
       <ol id="schools">
         <!-- IIT Section -->
         <li>
           <section id="iit">
             <h4>Illinois Institute of Technology</h4>
-            <!-- Order matters beacuse: order of importance and higharcy between degrees -->
+            <!-- Order matters beacuse: order of importance and hierarchy between degrees -->
             <ol class="degrees">
               <li>Master of Cyber Forensics and Security</li>
               <li>Bachelor of Information Technology and Management</li>
@@ -69,23 +71,17 @@
         </li>
       </ol>
     </article>
-    <!--  -->
+    <!-- Work Experience Article: Jobs: Bank, SD129, Best Buy, YnC, and Main Event-->
     <article id="work-experience">
       <h3>Work Experience</h3>
+      <!-- Bank Section -->
       <section id="bank">
-        <!--  -->
         <h4>Network Systems Engineer Intern</h4>
-        <!--  -->
-
-        <!--  -->
-
-          <ul>
-            <li class="employer">Republic Bank of Chicago</li>
-            <li class="location">Oak Brook, IL</li>
-            <li class="dates">May 2018 - August 2018</li>
-          </ul>
-
-        <!--  -->
+        <ul>
+          <li class="employer">Republic Bank of Chicago</li>
+          <li class="location">Oak Brook, IL</li>
+          <li class="dates">May 2018 - August 2018</li>
+        </ul>
         <ol>
           <li>Designed and deployed Microsoft LAPS architecture to increase enterprise security posture for FDIC compliance</li>
           <li>Detailed security analysis of network architecture using specialty systems from Fortinet, Aruba ClearPass, and Cisco Prime</li>
@@ -94,15 +90,14 @@
           <li>Administrated network across multiple systems and hardware devices enterprise wide</li>
         </ol>
       </section>
-      <section id="school">
+      <!-- SD129 Section -->
+      <section id="sd129">
         <h4>IT Intern / IT Intern Supervisor / Field Technician</h4>
-
-          <ul>
-            <li class="employer">School District 129</li>
-            <li class="location">Aurora, IL</li>
-            <li class="dates">May 2015 - May 2018</li>
-          </ul>
-
+        <ul>
+          <li class="employer">School District 129</li>
+          <li class="location">Aurora, IL</li>
+          <li class="dates">May 2015 - May 2018</li>
+        </ul>
         <ol>
           <li>Identified inefficiencies and implement effective changes to improve way devices are deployed and organized</li>
           <li>Managed dozen interns on how to perform tasks across twenty locations</li>
@@ -111,58 +106,53 @@
           <li>Maintained technology at West Aurora High, Jefferson Middle, McCleery Elementary, and Hill Elementary Schools</li>
         </ol>
       </section>
+      <!-- Best Buy Section -->
       <section id="best-buy">
         <h4>Geek Squad Consultation Agent / Geek Squad Advanced Repair Agent</h4>
-
-          <ul>
-            <li class="employer">Best Buy</li>
-            <li class="location">North Aurora, IL</li>
-            <li class="dates">May 2016 - Present (Seasonal)</li>
-          </ul>
-
+        <ul>
+          <li class="employer">Best Buy</li>
+          <li class="location">North Aurora, IL</li>
+          <li class="dates">May 2016 - Present (Seasonal)</li>
+        </ul>
         <ol>
           <li>Supervise and train coworkers by explaining Client Data Privacy, SOP, policies, and procedures</li>
           <li>Create personalized experience for each client by understanding and empathizing with their situation</li>
           <li>Complete repairs, upgrades, and setups including proper documentation</li>
         </ol>
       </section>
+      <!-- YnC Section -->
       <section id="ync">
         <h4>IT Consultant</h4>
-
-
-          <ul>
-            <li class="employer">Young &amp; Champagne</li>
-            <li class="location">Detroit, MI</li>
-            <li class="dates">October 2016 - August 2017</li>
-          </ul>
-
+        <ul>
+          <li class="employer">Young &amp; Champagne</li>
+          <li class="location">Detroit, MI</li>
+          <li class="dates">October 2016 - August 2017</li>
+        </ul>
         <ol>
           <li>Collaborated with IT mentor, established office network and facilitated PC maintenance through on-site service</li>
           <li>Provided remote client support via TeamViewer to manage applications and VPN access</li>
           <li>Administered Office 365 to make sure employees efficiently use software features</li>
         </ol>
       </section>
+      <!-- Main Event Section -->
       <section id="main-event">
         <h4>Games Attendant / Games Supervisor</h4>
-
-
-          <ul>
-            <li class="employer">Main Event Entertainment</li>
-            <li class="location">Warrenville, IL</li>
-            <li class="dates">August 2014 - May 2016</li>
-          </ul>
-
+        <ul>
+          <li class="employer">Main Event Entertainment</li>
+          <li class="location">Warrenville, IL</li>
+          <li class="dates">August 2014 - May 2016</li>
+        </ul>
         <ol>
           <li>Co-managed games department, trained employees, and maintained technical equipment</li>
           <li>Worked independently and as team to provide service that guaranteed customer satisfaction and loyalty</li>
         </ol>
       </section>
     </article>
-    <!--  -->
+    <!-- Technical Skills Article: Skills -->
     <article id="technical-skills">
       <h3>Technical Skills</h3>
-      <!--  -->
-      <ul>
+      <!-- Skills List -->
+      <ul id="skills">
         <li>Administration VMware vCenter, Cisco Prime, Aruba ClearPass, Aruba Central, LAPS, Fortinet Firewall, SolarWinds, JAMF, Active Directory</li>
         <li>Configure, Verify, and Troubleshoot Cisco IOS, VLSM, IPV4, IPv6, Routing, Switching, Security, Cabling</li>
         <li>Operate Windows, Windows Server, Linux, Mac OS, Chrome OS</li>
@@ -172,11 +162,11 @@
         <li>Database Management, IT Project Management, Web Design</li>
       </ul>
     </article>
-    <!--  -->
+    <!-- Certifications Awards Article: Certs -->
     <article id="certifications-awards">
       <h3>Certifications and Awards</h3>
-      <!--  -->
-      <ul>
+      <!-- Certs List -->
+      <ul id="certs">
         <li>Microsoft Certified Professional Windows 10 (MCP), April 2018</li>
         <li>VMware Certified Associate (VCA), December 2017</li>
         <li>CompTIA A+, September 2017</li>
@@ -187,11 +177,11 @@
         <li>Matt Rassier Memorial and Study Abroad Scholarship, COD</li>
       </ul>
     </article>
-    <!--  -->
+    <!-- Leadership Experience Article: Leadership -->
     <article id="leadership-experience">
       <h3>Leadership Experience</h3>
-        <!--  -->
-        <ol>
+        <!-- Order matters beacuse: order of time. Leadership List -->
+        <ol id="leadership">
           <li>Cyber Skyline National Cyber League	March 2018 - May 2018</li>
           <li>Phi Theta Kappa Honor Society	February 2018 - May 2018</li>
           <li>CompTIA Policy Executive Board	March 2018</li>
